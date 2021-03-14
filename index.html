@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!--Import Google Icon Font-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--Import Google Icon and Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
@@ -29,17 +30,15 @@
             <div class="container">
                 <div class="nav-wrapper">
                     <!--<a href="#!" class="brand-logo">Marca PMD</a>-->
-                    <a href="#!" class="brand-logo"><img src="images/pmd/prefeitura-de-dourados.png" alt=""></a>
+                    <a href="#!" class="brand-logo"><img class="marca-topo" src="images/pmd/marca-prefeitura-dourados.jpg" alt=""></a>
                     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="sass.html">CIDADÃO</a></li>
-                        <li><a href="badges.html">EMPRESA</a></li>
-                        <li><a href="badges.html">SECRETARIAS</a></li>
-                        <li><a href="badges.html">TRANSPARÊNCIA</a></li>
-                        <li><a href="badges.html">DIÁRIO OFICIAL</a></li>
-                        <!-- Dropdown Trigger
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-                        -->
+                    <ul class="right hide-on-med-and-down menu-desktop fonte-menu">
+                        <li><a class="valign-wrapper" href="sass.html">CIDADÃO</a></li>
+                        <li><a class="valign-wrapper" href="badges.html">EMPRESA</a></li>
+                        <li><a class="valign-wrapper" href="badges.html">SECRETARIAS</a></li>
+                        <li><a class="valign-wrapper" href="badges.html">TRANSPARÊNCIA</a></li>
+                        <li><a class="valign-wrapper" href="badges.html">DIÁRIO OFICIAL</a></li>
+                        <li><a class="valign-wrapper" href="#"><i class="material-icons">search</i></a></li>
                     </ul>
                 </div>
             </div>
@@ -61,6 +60,7 @@
 
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.sidenav');

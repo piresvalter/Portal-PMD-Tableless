@@ -1,6 +1,16 @@
 .nav-azul{
     background-color: #0A51A1;
+    height: 120px;
+}
+.menu-desktop a{
+    height: 120px !important;
 }
 .marca-topo{
-    width: 120px !important;
+    width: 300px !important;
+    margin: 10px 0 !important;
+}
+.fonte-menu{
+    font-family: Josefin+Sans;
+    font-weight: 700;
+    font-size: 12px !important;
 }
