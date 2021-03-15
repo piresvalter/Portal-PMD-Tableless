@@ -3,6 +3,9 @@
 <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
@@ -56,6 +59,41 @@
         </ul>
 </nav>
 
+<div class="container espaco-topo">
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <a href="#"><img src="midia/slide-800x531-1.jpg"></a>
+                <div class="caption left-align">
+                    <a class="btn yellow blue-text texto-btn-slide" href="#">Confira</a>
+                    <h3 class="texto-slide">Prefeitura de Dourados inicia limpeza no semitério da Coronel Ponciano</h3>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="midia/slide-800x531-1.jpg"></a>
+                <div class="caption left-align">
+                    <a class="btn yellow blue-text texto-btn-slide" href="#">Confira</a>
+                    <h3 class="texto-slide">Prefeitura de Dourados inicia limpeza no semitério da Coronel Ponciano</h3>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="midia/slide-800x531-1.jpg"></a>
+                <div class="caption left-align">
+                    <a class="btn yellow blue-text texto-btn-slide" href="#">Confira</a>
+                    <h3 class="texto-slide">Prefeitura de Dourados inicia limpeza no semitério da Coronel Ponciano</h3>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="midia/slide-800x531-1.jpg"></a>
+                <div class="caption left-align">
+                    <a class="btn yellow blue-text texto-btn-slide" href="#">Confira</a>
+                    <h3 class="texto-slide">Prefeitura de Dourados inicia limpeza no semitério da Coronel Ponciano</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
 
 <div class="fixed-action-btn">
     <a class="btn-floating btn-large red">
@@ -85,6 +123,12 @@
         $('.sidenav').sidenav();
         //Botão Footer
         $('.fixed-action-btn').floatingActionButton();
+        //PopUp
+        //$('.materialboxed').materialbox();
+        //slide
+        $('.slider').slider({
+            indicators: false,
+        });
     });
 
     //Menu Mobile

@@ -17,6 +17,19 @@
 .espaco-topo{
     margin-top: 55px;
 }
+.texto-slide{
+    font-family: Josefin+Sans;
+    font-weight: 300;
+    font-size: 36px !important;
+    background-color: rgba(229,229,229,0.21);
+    padding: 20px;
+}
+.texto-btn-slide{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px !important;
+    border-radius: 0 !important;
+}
 
 /***************MOBILE********************/
 @media only screen and (max-width: 600px) {
