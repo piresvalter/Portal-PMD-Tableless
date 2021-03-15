@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!--Import Google Icon Font-->
+    <!--Import Google Icon and Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
@@ -13,14 +15,6 @@
 </head>
 <body>
 <!-- HEADER -->
-
-<!--SUBMENU-->
-<ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
-</ul>
 <nav>
         <!--Mobile-->
         <nav class="nav-azul">
@@ -56,23 +50,18 @@
         </ul>
 </nav>
 
-
-<div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-        <i class="large material-icons">mode_edit</i>
-    </a>
-    <ul>
-        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-    </ul>
+<div class="container">
+    <div class="row">
+        <div class="col s12"></div>
+    </div>
 </div>
 
+
+
 <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.sidenav');
         var instances = M.Sidenav.init(elems, options);
@@ -81,16 +70,13 @@
     $(document).ready(function(){
         $('.modal').modal();
         $('.dropdown-trigger').dropdown();
-        //sidenav
-        $('.sidenav').sidenav();
-        //Botão Footer
-        $('.fixed-action-btn').floatingActionButton();
     });
 
     //Menu Mobile
     $(function(){
         $(".button-collapse").sideNav();
     });
+
 
 </script>
 </body>
