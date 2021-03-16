@@ -33,6 +33,10 @@
     font-size: 18px !important;
     border-radius: 0 !important;
 }
+.slider, .slides {
+    height: 650px !important;
+}
+
 
 /***************MOBILE********************/
 @media only screen and (max-width: 600px) {
