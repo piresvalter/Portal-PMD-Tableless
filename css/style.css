@@ -5,6 +5,18 @@
     background-color: #0A51A1;
     height: 120px;
 }
+.azul-padrao{
+    background-color: #0A51A1 !important;
+}
+.cor-twitter, .cor-twitter:hover{
+    background-color: #00ACEE;
+}
+.cor-whatsapp, .cor-whatsapp:hover{
+    background-color: #00BB2D;
+}
+.cor-facebook, .cor-facebook:hover{
+    background-color: #3B5998;
+}
 .menu-desktop a{
     height: 120px !important;
 }
@@ -35,6 +47,21 @@
 }
 .slider, .slides {
     height: 650px !important;
+}
+.ultimas-noticias-titulo-home{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 24px !important;
+    color: #0A8BD4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ultimas-noticias-texto-home{
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 24px !important;
+    color: #000000;
+    line-height: 26px;
 }
 
 

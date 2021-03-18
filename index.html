@@ -4,6 +4,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <!--Import materialize.css-->
@@ -19,9 +20,8 @@
 
 <!--SUBMENU-->
 <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
+    <li><a href="#!">Menu 1</a></li>
+    <li><a href="#!">Menu 2</a></li>
     <li><a href="#!">three</a></li>
 </ul>
 <nav>
@@ -34,28 +34,64 @@
                     <a href="#!" class="brand-logo"><img class="marca-topo" src="images/pmd/marca-prefeitura-dourados.jpg" alt=""></a>
                     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down menu-desktop fonte-menu">
-                        <li><a class="valign-wrapper" href="sass.html">CIDADÃO</a></li>
-                        <li><a class="valign-wrapper" href="badges.html">EMPRESA</a></li>
-                        <li><a class="valign-wrapper" href="badges.html">SECRETARIAS</a></li>
-                        <li><a class="valign-wrapper" href="badges.html">TRANSPARÊNCIA</a></li>
-                        <li><a class="valign-wrapper" href="badges.html">DIÁRIO OFICIAL</a></li>
+                        <li><a class="valign-wrapper" href="#">CIDADÃO</a></li>
+                        <li><a class="valign-wrapper" href="#">EMPRESA</a></li>
+                        <li><a class="valign-wrapper" href="#">SECRETARIAS</a></li>
+                        <li><a class="valign-wrapper" href="#">TRANSPARÊNCIA</a></li>
+                        <li><a class="valign-wrapper" href="#">DIÁRIO OFICIAL</a></li>
                         <li><a class="valign-wrapper" href="#"><i class="material-icons">search</i></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <ul id="slide-out" class="sidenav" id="menu-mobile">
-            <li><div class="user-view">
-                <div class="background">
+            <li><a href="#!"><i class="material-icons">people</i>CIDADÃO</a></li>
+            <li><a href="#!">Menu 1</a></li>
+            <li><a href="#!">Menu 2</a></li>
+            <li><a href="#!">Menu 3</a></li>
+            <li><a href="#!">Menu 4</a></li>
+            <li><a href="#!">Menu 5</a></li>
+            <li><a href="#!">Menu 6</a></li>
+            <li><a href="#!"><i class="material-icons">store</i>EMPRESA</a></li>
+            <li><a href="#!">Menu 1</a></li>
+            <li><a href="#!">Menu 2</a></li>
+            <li><a href="#!">Menu 3</a></li>
+            <li><a href="#!">Menu 4</a></li>
+            <li><a href="#!">Menu 5</a></li>
+            <li><a href="#!">Menu 6</a></li>
+            <li><a href="#!"><i class="material-icons">account_balance</i>SECRETARIAS</a></li>
+            <li><a href="#!">Menu 1</a></li>
+            <li><a href="#!">Menu 2</a></li>
+            <li><a href="#!">Menu 3</a></li>
+            <li><a href="#!">Menu 4</a></li>
+            <li><a href="#!">Menu 5</a></li>
+            <li><a href="#!">Menu 6</a></li>
+            <li><a href="#!"><i class="material-icons">perm_device_information</i>TRANSPARÊNCIA</a></li>
+            <li><a href="#!">Menu 1</a></li>
+            <li><a href="#!">Menu 2</a></li>
+            <li><a href="#!">Menu 3</a></li>
+            <li><a href="#!">Menu 4</a></li>
+            <li><a href="#!">Menu 5</a></li>
+            <li><a href="#!">Menu 6</a></li>
+            <li><a href="#!"><i class="material-icons">picture_as_pdf</i>DIÁRIO OFICIAL</a></li>
+            <li><a href="#!">Menu 1</a></li>
+            <li><a href="#!">Menu 2</a></li>
+            <li><a href="#!">Menu 3</a></li>
+            <li><a href="#!">Menu 4</a></li>
+            <li><a href="#!">Menu 5</a></li>
+            <li><a href="#!">Menu 6</a></li>
+            <li>
+                <div class="center row">
+                    <div class="col s12 " >
+                        <div class="row" id="topbarsearch">
+                            <div class="input-field col s6 s12 red-text">
+                                <i class="red-text material-icons prefix">search</i>
+                                <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete red-text" >
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="#name"><span class="white-text name">John Doe</span></a>
-                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-            </div></li>
-            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-            <li><a href="#!">Second Link</a></li>
-            <li><div class="divider"></div></li>
-            <li><a class="subheader">Subheader</a></li>
-            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </li>
         </ul>
 </nav>
 
@@ -94,16 +130,49 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <h3 class="ultimas-noticias-titulo-home center-align">ÚLTIMAS NOTÍCIAS</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s4">
+            <a href="#">
+                <img class="responsive-img" src="midia/news-home.png"  alt="">
+            </a>
+            <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+        </div>
+
+        <div class="col s4">
+            <a href="#">
+                <img class="responsive-img" src="midia/news-home.png"  alt="">
+            </a>
+            <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+        </div>
+
+        <div class="col s4">
+            <a href="#">
+                <img class="responsive-img" src="midia/news-home.png"  alt="">
+            </a>
+            <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+        </div>
+    </div>
+</div>
+
+
+
 
 <div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-        <i class="large material-icons">mode_edit</i>
+    <a class="btn-floating btn-large azul-padrao">
+        <i class="large material-icons">send</i>
     </a>
     <ul>
-        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        <!--<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>-->
+        <li><a href="#" class="btn-floating cor-twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#" class="btn-floating cor-whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+        <li><a href="#" class="btn-floating cor-facebook"><i class="material-icons">facebook</i></a></li>
     </ul>
 </div>
 
@@ -128,12 +197,21 @@
         //slide
         $('.slider').slider();
     });
-
     //Menu Mobile
     $(function(){
         $(".button-collapse").sideNav();
     });
 
+</script>
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
 </script>
 </body>
 </html>
