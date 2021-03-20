@@ -17,15 +17,7 @@
 </head>
 <body class="fundo-body">
 <!-- HEADER -->
-
-<!--SUBMENU-->
-<ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">Menu 1</a></li>
-    <li><a href="#!">Menu 2</a></li>
-    <li><a href="#!">three</a></li>
-</ul>
 <nav>
-        <!--Mobile-->
         <nav class="nav-azul">
             <!--Desktop-->
             <div class="container">
@@ -39,7 +31,7 @@
                         <li><a class="valign-wrapper" href="#">SECRETARIAS</a></li>
                         <li><a class="valign-wrapper" href="#">TRANSPARÊNCIA</a></li>
                         <li><a class="valign-wrapper" href="#">DIÁRIO OFICIAL</a></li>
-                        <li><a class="valign-wrapper" href="#"><i class="material-icons">search</i></a></li>
+                        <li><a class="valign-wrapper modal-trigger" href="#modal1"><i class="material-icons">search</i></a></li>
                     </ul>
                 </div>
             </div>
@@ -67,26 +59,14 @@
             <li><a href="#!">Menu 5</a></li>
             <li><a href="#!">Menu 6</a></li>
             <li><a href="#!"><i class="material-icons">perm_device_information</i>TRANSPARÊNCIA</a></li>
-            <li><a href="#!">Menu 1</a></li>
-            <li><a href="#!">Menu 2</a></li>
-            <li><a href="#!">Menu 3</a></li>
-            <li><a href="#!">Menu 4</a></li>
-            <li><a href="#!">Menu 5</a></li>
-            <li><a href="#!">Menu 6</a></li>
             <li><a href="#!"><i class="material-icons">picture_as_pdf</i>DIÁRIO OFICIAL</a></li>
-            <li><a href="#!">Menu 1</a></li>
-            <li><a href="#!">Menu 2</a></li>
-            <li><a href="#!">Menu 3</a></li>
-            <li><a href="#!">Menu 4</a></li>
-            <li><a href="#!">Menu 5</a></li>
-            <li><a href="#!">Menu 6</a></li>
             <li>
                 <div class="center row">
                     <div class="col s12 " >
                         <div class="row" id="topbarsearch">
                             <div class="input-field col s6 s12 red-text">
                                 <i class="red-text material-icons prefix">search</i>
-                                <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete red-text" >
+                                <input type="text" placeholder="Digite sua Pesquisa" id="autocomplete-input" class="autocomplete red-text" >
                             </div>
                         </div>
                     </div>
@@ -95,35 +75,51 @@
         </ul>
 </nav>
 
+<!-- Modal Search -->
+<div id="modal1" class="modal valign-wrapper">
+    <div class="modal-content">
+        <div class="center row">
+            <div class="col s12 " >
+                <div class="row" id="topbarsearch">
+                    <div class="input-field col s6 s12 red-text">
+                        <i class="red-text material-icons prefix">search</i>
+                        <input type="text" placeholder="Digite sua Pesquisa" id="autocomplete-input" class="autocomplete red-text" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="espaco-topo">
     <div class="slider">
         <ul class="slides">
             <li>
-                <a href="#"><img src="midia/slide-800x531-1.jpg"></a>
-                <div class="caption left-align">
+                <a href="#"><img src="midia/1.jpg"></a>
+                <div class="caption left-align slide-alinha-mobile">
                     <a class="btn yellow blue-text texto-btn-slide" href="#">Confira</a>
-                    <h3 class="texto-slide">Prefeitura de Dourados inicia limpeza no cemitério da Coronel Ponciano</h3>
+                    <h3 class="texto-slide"><a href="#">Prefeitura de Dourados recebe proposta do programa Cidade Empreendedora</a></h3>
                 </div>
             </li>
             <li>
-                <a href="#"><img src="midia/slide-800x531-1.jpg"></a>
-                <div class="caption left-align">
+                <a href="#"><img src="midia/2.jpeg"></a>
+                <div class="caption left-align slide-alinha-mobile">
                     <a class="btn yellow blue-text texto-btn-slide" href="#">Confira</a>
-                    <h3 class="texto-slide">Prefeitura de Dourados inicia limpeza no cemitério da Coronel Ponciano</h3>
+                    <h3 class="texto-slide"><a href="#">Domingo tem drive thru vacinação para idosos com 75 anos ou mais</a></h3>
                 </div>
             </li>
             <li>
-                <a href="#"><img src="midia/slide-800x531-1.jpg"></a>
-                <div class="caption left-align">
+                <a href="#"><img src="midia/3.jpg"></a>
+                <div class="caption left-align slide-alinha-mobile">
                     <a class="btn yellow blue-text texto-btn-slide" href="#">Confira</a>
-                    <h3 class="texto-slide">Prefeitura de Dourados inicia limpeza no cemitério da Coronel Ponciano</h3>
+                    <h3 class="texto-slide"><a href="#">Guarda Municipal, Agetran, PM e Bombeiros farão fiscalização e bloqueios para evitar aglomerações no fim de semana</a></h3>
                 </div>
             </li>
             <li>
-                <a href="#"><img src="midia/slide-800x531-1.jpg"></a>
-                <div class="caption left-align">
+                <a href="#"><img src="midia/4.jpg"></a>
+                <div class="caption left-align slide-alinha-mobile">
                     <a class="btn yellow blue-text texto-btn-slide" href="#">Confira</a>
-                    <h3 class="texto-slide">Prefeitura de Dourados inicia limpeza no cemitério da Coronel Ponciano</h3>
+                    <h3 class="texto-slide"><a href="#">Agehab lança projeto Financia Fácil para ajudar famílias na aquisição da casa própria</a></h3>
                 </div>
             </li>
         </ul>
@@ -133,39 +129,274 @@
 <div class="container">
     <div class="row">
         <div class="col s12">
-            <h3 class="ultimas-noticias-titulo-home center-align">ÚLTIMAS NOTÍCIAS</h3>
+            <h3 class="ultimas-noticias-titulo-home center-align"><a href="#">ÚLTIMAS NOTÍCIAS</a></h3>
         </div>
     </div>
     <div class="row">
-        <div class="col s4">
-            <a href="#">
-                <img class="responsive-img" src="midia/news-home.png"  alt="">
-            </a>
-            <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+        <div class="col m4 s12 ultimas-noticias-conteudo-materia-home">
+            <div class="trata-noticias-home">
+                <a href="#">
+                    <img class="responsive-img" src="midia/news-home.png"  alt="">
+                </a>
+                <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+            </div>
         </div>
 
-        <div class="col s4">
-            <a href="#">
-                <img class="responsive-img" src="midia/news-home.png"  alt="">
-            </a>
-            <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+        <div class="col m4 s12 ultimas-noticias-conteudo-materia-home">
+            <div class="trata-noticias-home">
+                <a href="#">
+                    <img class="responsive-img" src="midia/news-home.png"  alt="">
+                </a>
+                <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+            </div>
         </div>
 
-        <div class="col s4">
-            <a href="#">
-                <img class="responsive-img" src="midia/news-home.png"  alt="">
-            </a>
-            <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+        <div class="col m4 s12 ultimas-noticias-conteudo-materia-home">
+            <div class="trata-noticias-home">
+                <a href="#">
+                    <img class="responsive-img" src="midia/news-home.png"  alt="">
+                </a>
+                <h4 class="center-align"><a class="ultimas-noticias-texto-home" href="#">Prefeitura abre processo seletivo para estudantes do ensino médio e ensino superior.</a></h4>
+            </div>
         </div>
     </div>
 </div>
+
+
+<div class="container">
+    <div class="row center-align">
+        <div class="col m10 offset-m1 s12">
+            <hr class="linha-home-sociais">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col m10 s12 offset-m1">
+            <h4 class="texto-redes-sociais">REDES SOCIAIS</h4>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col m2 offset-m2 s3 center-align">
+            <a href="https://www.facebook.com/prefeituradedourados"
+               target="_blank"><i class="fab fa-facebook-f texto-branco icon-social-home z-depth-2"></i></a>
+        </div>
+
+        <div class="col m2 s3 center-align">
+            <a href="https://www.instagram.com/prefeituradedourados"
+               target="_blank"><i class="fab fa-instagram texto-branco icon-social-home z-depth-2"></i></a>
+        </div>
+
+        <div class="col s2 s3 center-align">
+            <a href="https://www.youtube.com/channel/UC7WO4wXZabY31BUB1MxU4_g"
+               target="_blank"><i class="fab fa-youtube texto-branco icon-social-home z-depth-2"></i></a>
+        </div>
+
+        <div class="col s2 s3 center-align">
+            <a href="https://twitter.com/prefdouradosms"
+               target="_blank"><i class="fab fa-twitter texto-branco icon-social-home z-depth-2"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row center-align">
+        <div class="col m10 offset-m1 s12">
+            <hr class="linha-home-sociais">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col m10 offset-m1">
+            <h4 class="texto-redes-sociais">MAIS ACESSADOS</h4>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col l11 offset-l1 m11 offset-m1  mais-acessados-alinhamento">
+
+            <div class="row">
+                <div class="col m2 offset-l1 offset-m1 s4 ">
+                    <a href="#"><img class="mais-acessados-icones" src="images/pmd/svg/esic.svg" alt=""></a>
+                    <a href="#"><img class="mais-acessados-icones" src="images/pmd/svg/esic.svg" alt=""></a>
+                </div>
+                <div class="col m2 s4">
+                    <a href="#"><img class="mais-acessados-icones" src="images/pmd/svg/esic.svg" alt=""></a>
+                    <a href="#"><img class="mais-acessados-icones" src="images/pmd/svg/esic.svg" alt=""></a>
+                </div>
+                <div class="col m2 s4">
+                    <a href="#"><img class="mais-acessados-icones" src="images/pmd/svg/esic.svg" alt=""></a>
+                    <a href="#"><img class="mais-acessados-icones" src="images/pmd/svg/esic.svg" alt=""></a>
+                </div>
+                <div class="col m3 s12">
+                    <a href="#"><img class="mais-acessados-maior" src="images/pmd/covid.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row center-align">
+        <div class="col m10 offset-m1 s12">
+            <hr class="linha-home-sociais">
+        </div>
+    </div>
+</div>
+
+<div class="bg-amarelo-home">
+    <div class="container">
+        <div class="row">
+
+            <div class="col l7 m6 s12 trata-texto-mao-do-bras">
+                <p>População</p>
+                <h5>225.495</h5>
+
+                <p>Pontos Turísticos</p>
+                <h5>15</h5>
+
+                <p>Empresas Ativas</p>
+                <h5>20.409</h5>
+
+                <p>Festas Tradicionais</p>
+                <h5>15</h5>
+            </div>
+
+            <div class="col l5 m6 s12 trata-col-home-mao-do-bras">
+                <img class="home-mao-do-bras" src="images/pmd/mao-do-bras.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <h4 class="texto-redes-sociais"><a href="#">VÍDEOS</a></h4>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col m4 s12">
+            <a href="#"><img class="responsive-img videos-home-mobile" src="https://img.youtube.com/vi/mXqg1o1HOT0/mqdefault.jpg" alt=""></a>
+        </div>
+
+        <div class="col m4 s12">
+            <a href="#"><img class="responsive-img videos-home-mobile" src="https://img.youtube.com/vi/mXqg1o1HOT0/mqdefault.jpg" alt=""></a>
+        </div>
+
+        <div class="col m4 s12">
+            <a href="#"><img class="responsive-img videos-home-mobile" src="https://img.youtube.com/vi/mXqg1o1HOT0/mqdefault.jpg" alt=""></a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row center-align">
+        <div class="col m10 offset-m1 s12">
+            <hr class="linha-home-sociais">
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <h3 class="servicos-titulo-home center-align">SERVIÇOS</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col m10 offset-m1 s10 offset-s1">
+            <div class="col m4 s12 servicos-home-box-servico center-align">
+                <a class="center-block" href="#"><img class="servicos-home-icones" src="images/pmd/servicos/cidadao.png" alt="Ícone Cidadão"></a>
+                <h5 class="servicos-home-servico">Cidadão</h5>
+                <a class="servicos-home-servico-item" href="#">link 1</a>
+                <a class="servicos-home-servico-item" href="#">link 2</a>
+                <a class="servicos-home-servico-item" href="#">link 3</a>
+                <a class="servicos-home-servico-item" href="#">Ver Todos</a>
+            </div>
+
+            <div class="col m4 s12 servicos-home-box-servico center-align">
+                <a class="center-block" href="#"><img class="servicos-home-icones" src="images/pmd/servicos/empresas.png" alt="Ícone Cidadão"></a>
+                <h5 class="servicos-home-servico">Empresa</h5>
+                <a class="servicos-home-servico-item" href="#">link 1</a>
+                <a class="servicos-home-servico-item" href="#">link 2</a>
+                <a class="servicos-home-servico-item" href="#">link 3</a>
+                <a class="servicos-home-servico-item" href="#">Ver Todos</a>
+            </div>
+
+            <div class="col m4 s12 servicos-home-box-servico center-align">
+                <a class="center-block" href="#"><img class="servicos-home-icones" src="images/pmd/servicos/turismo.png" alt="Ícone Cidadão"></a>
+                <h5 class="servicos-home-servico">Turismo</h5>
+                <a class="servicos-home-servico-item" href="#">link 1</a>
+                <a class="servicos-home-servico-item" href="#">link 2</a>
+                <a class="servicos-home-servico-item" href="#">link 3</a>
+                <a class="servicos-home-servico-item" href="#">Ver Todos</a>
+            </div>
+        </div>
+
+
+        <div class="col l10 offset-l1 m10 offset-m3 s10 offset-s1">
+            <div class="col m4 s12 servicos-home-box-servico center-align offset-l2">
+                <a class="center-block" href="#"><img class="servicos-home-icones" src="images/pmd/servicos/servidor.png" alt="Ícone Cidadão"></a>
+                <h5 class="servicos-home-servico">Servidor</h5>
+                <a class="servicos-home-servico-item" href="#">link 1</a>
+                <a class="servicos-home-servico-item" href="#">link 2</a>
+                <a class="servicos-home-servico-item" href="#">link 3</a>
+                <a class="servicos-home-servico-item" href="#">Ver Todos</a>
+            </div>
+
+
+            <div class="col m4 s12 servicos-home-box-servico center-align">
+                <a class="center-block" href="#"><img class="servicos-home-icones" src="images/pmd/servicos/imprensa.png" alt="Ícone Cidadão"></a>
+                <h5 class="servicos-home-servico">Imprensa</h5>
+                <a class="servicos-home-servico-item" href="#">link 1</a>
+                <a class="servicos-home-servico-item" href="#">link 2</a>
+                <a class="servicos-home-servico-item" href="#">link 3</a>
+                <a class="servicos-home-servico-item" href="#">Ver Todos</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="portal-footer">
+    <div class="container">
+        <div class="row footer-trata-espacamento">
+            <div class="col m6 s12">
+                <h4 class="footer-titulo">Fale Conosco</h4>
+                <p class="footer-texto"><span class="footer-texto-destaque">R</span>ua Coronel Ponciano, 1700</p>
+                <p class="footer-texto">(67) 3411-7122</p>
+            </div>
+            <div class="col m6 s12 footer-borda-desktop">
+                <p class="footer-texto">Desenvolvido pelo Depto de Tecnologia da Informação</p>
+                <p class="footer-texto">Secretaria Municipal de Administração</p>
+                <p class="footer-texto-bold">Prefeitura de Dourados 2021</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
 
 <div class="fixed-action-btn">
     <a class="btn-floating btn-large azul-padrao">
-        <i class="large material-icons">send</i>
+        <i class="large material-icons">share</i>
     </a>
     <ul>
         <!--<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
@@ -196,6 +427,11 @@
         //$('.materialboxed').materialbox();
         //slide
         $('.slider').slider();
+        //Modal
+        $('.modal').modal({
+            opacity: 0.9,
+            preventScrolling: true,
+        });
     });
     //Menu Mobile
     $(function(){

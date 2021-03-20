@@ -8,6 +8,9 @@
 .azul-padrao{
     background-color: #0A51A1 !important;
 }
+.texto-branco{
+    color: #FFFFFF !important;
+}
 .cor-twitter, .cor-twitter:hover{
     background-color: #00ACEE;
 }
@@ -21,7 +24,7 @@
     height: 120px !important;
 }
 .marca-topo{
-    width: 300px !important;
+    max-width: 300px !important;
     margin: 10px 0 !important;
 }
 .fonte-menu{
@@ -35,14 +38,18 @@
 .texto-slide{
     font-family: Josefin+Sans;
     font-weight: 300;
-    font-size: 36px !important;
-    background-color: rgba(229,229,229,0.21);
+    font-size: 48px !important;
+    /*background-color: rgba(229,229,229,0.21);*/
+    background-color: rgba(0,0,0,0.35);
     padding: 20px;
+}
+.texto-slide a, texto-slide a:hover{
+    color: #FFFFFF !important;
 }
 .texto-btn-slide{
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 18px !important;
+    font-size: 24px !important;
     border-radius: 0 !important;
 }
 .slider, .slides {
@@ -51,10 +58,18 @@
 .ultimas-noticias-titulo-home{
     font-family: Montserrat;
     font-weight: 800;
-    font-size: 24px !important;
+    font-size: 32px !important;
     color: #0A8BD4;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+.trata-noticias-home{
+    background-color: #FFFFFF;
+    padding: 10px !important;
+}
+.ultimas-noticias-conteudo-materia-home{
+    min-height: 520px !important;
+    padding: 10px !important;
 }
 .ultimas-noticias-texto-home{
     font-family: Josefin Sans;
@@ -63,10 +78,174 @@
     color: #000000;
     line-height: 26px;
 }
-
-
+.linha-home-sociais{
+    border-color: #0A8BD4 !important;
+}
+.icon-social-home{
+    font-size: 60px;
+    width: 100px !important;
+    height: 100px !important;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #0A8BD4;
+    margin-bottom: 30px;
+}
+.texto-redes-sociais, .texto-redes-sociais a{
+    font-family: Josefin+Sans;
+    font-weight: 300;
+    font-size: 19px !important;
+    color: #000000;
+}
+.mais-acessados-alinhamento{
+    padding-left: 20px !important;
+}
+.mais-acessados-icones{
+    width: 96% !important;
+}
+.mais-acessados-maior{
+    width: 100% !important;
+}
+.bg-amarelo-home{
+    background-color: #FFD569;
+}
+.home-mao-do-bras{
+    width: 100% !important;
+}
+.trata-col-home-mao-do-bras{
+    padding-bottom: 0 !important;
+}
+.trata-texto-mao-do-bras{
+    padding-top: 30px !important;
+}
+.trata-texto-mao-do-bras p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+}
+.trata-texto-mao-do-bras h5{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 48px;
+}
+.servicos-titulo-home{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 32px !important;
+    color: #5E6061;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.servicos-home-box-servico{
+    padding: 20px 50px !important ;
+}
+.servicos-home-icones{
+    align-content: center;
+}
+.servicos-home-servico{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 32px !important;
+    color: #0A8BD4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.servicos-home-servico-item, .servicos-home-servico-item a{
+    font-family: Montserrat;
+    display: block;
+    font-weight: 400;
+    font-size: 24px !important;
+    color: #5E6061;
+    text-align: left !important;
+}
+.portal-footer{
+    background-color: #C4C4C4;
+    margin-bottom: -20px !important;
+}
+.footer-trata-espacamento{
+    padding: 25px 0;
+}
+.footer-borda-desktop{
+    border-left: 2px solid #000000;
+    padding-left: 30px !important;
+}
+.footer-titulo{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 32px !important;
+    color: #000000;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+.footer-texto{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px !important;
+    color: #000000;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+.footer-texto-bold{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px !important;
+    color: #000000;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+.footer-texto-destaque{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 32px !important;
+    color: #000000;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+/******************TABLET********************/
+@media all and (min-width:601px) and (max-width:1000px){
+/*@media only screen and (min-width:601 and max-width:960px){*/
+    .ultimas-noticias-titulo-home{
+        font-size: 24px !important;
+    }
+    .ultimas-noticias-texto-home{
+        font-size: 18px !important;
+    }
+    .trata-texto-mao-do-bras p{
+        font-size: 12px !important;
+    }
+    .trata-texto-mao-do-bras h5{
+        font-size: 36px !important;
+    }
+    .servicos-titulo-home{
+        font-size: 24px !important;
+    }
+    .servicos-home-box-servico{
+        padding: 20px 20px !important ;
+    }
+    .servicos-home-icones{
+        width: 30% !important;
+    }
+    .servicos-home-servico{
+        font-size: 24px !important;
+    }
+    .servicos-home-servico-item, .servicos-home-servico-item a{
+        font-size: 18px !important;
+    }
+    .footer-titulo{
+        font-size: 24px !important;
+    }
+    .footer-texto{
+        font-size: 14px !important;
+    }
+    .footer-texto-bold{
+        font-size: 14px !important;
+    }
+    .footer-texto-destaque{
+        font-size: 24px !important;
+    }
+}
 /***************MOBILE********************/
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .nav-azul{
         height: 70px;
     }
@@ -77,4 +256,80 @@
         width: 150px !important;
         margin: 10px 0 !important;
     }
+    .espaco-topo{
+        margin-top: 15px !important;
+    }
+    .slide-alinha-mobile{
+        margin-top: -30px !important;
+    }
+    .slider, .slides {
+        height: 300px !important;
+    }
+    .texto-slide{
+        font-size: 24px !important;
+        /*background-color: rgba(229,229,229,0.21);*/
+    }
+    .ultimas-noticias-titulo-home{
+        font-size: 24px !important;
+    }
+    .ultimas-noticias-texto-home{
+        font-size: 20px !important;
+        line-height: 23px !important;
+    }
+    .icon-social-home {
+        font-size: 30px;
+        width: 60px !important;
+        height: 60px !important;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 60px;
+    }
+    .trata-texto-mao-do-bras p{
+        font-size: 12px !important;
+    }
+    .trata-texto-mao-do-bras h5{
+        font-size: 36px !important;
+    }
+    .videos-home-mobile{
+        margin: 15px 0 !important;
+    }
+    .servicos-titulo-home{
+        font-size: 24px !important;
+    }
+    .servicos-home-box-servico{
+        padding: 20px 20px 40px 20px !important ;
+        border-bottom: 1px solid #0A8BD4;
+    }
+    .servicos-home-icones{
+        margin-top: 30px !important;
+    }
+    .servicos-home-servico{
+        font-size: 24px !important;
+    }
+    .servicos-home-servico-item, .servicos-home-servico-item a{
+        font-size: 18px !important;
+    }
+    .footer-titulo{
+        font-size: 24px !important;
+    }
+    .footer-texto{
+        font-size: 14px !important;
+    }
+    .footer-texto-bold{
+        font-size: 14px !important;
+    }
+    .footer-texto-destaque{
+        font-size: 24px !important;
+    }
+    .portal-footer{
+        height: 370px !important;
+    }
+    .footer-borda-desktop{
+        border-left: none !important;
+        padding-left: 10px !important;
+        padding-top: 20px !important;
+        border-top: 2px solid #000000;
+        margin-top: 20px;
+    }
+
 }
