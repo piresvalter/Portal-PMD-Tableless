@@ -8,6 +8,9 @@
 .azul-padrao{
     background-color: #0A51A1 !important;
 }
+.amarelo-pmd{
+    background-color: #f1d430;
+}
 .texto-branco{
     color: #FFFFFF !important;
 }
@@ -31,6 +34,9 @@
     font-family: Josefin+Sans;
     font-weight: 700;
     font-size: 12px !important;
+}
+.sidenav{
+    z-index: 9999 !important;
 }
 .espaco-topo{
     margin-top: 55px;
@@ -76,7 +82,11 @@
     font-weight: 400;
     font-size: 24px !important;
     color: #000000;
-    line-height: 26px;
+
+}
+.alinha-noticias-home{
+    line-height: 22px;
+    margin-top: 0 !important;
 }
 .linha-home-sociais{
     border-color: #0A8BD4 !important;
@@ -111,9 +121,10 @@
 }
 .home-mao-do-bras{
     width: 100% !important;
+    margin-bottom: -8px !important;
 }
 .trata-col-home-mao-do-bras{
-    padding-bottom: 0 !important;
+    padding-bottom: 0px !important;
 }
 .trata-texto-mao-do-bras{
     padding-top: 30px !important;
@@ -201,6 +212,15 @@
     margin-top: 0 !important;
     margin-bottom: 0;
 }
+.indicators{
+    z-index: 9900 !important;
+}
+.indicator-item{
+    background-color: #0A51A1 !important;
+}
+.indicator-item.active{
+    background-color: #f1d430 !important;
+}
 /******************TABLET********************/
 @media all and (min-width:601px) and (max-width:1000px){
 /*@media only screen and (min-width:601 and max-width:960px){*/
@@ -269,12 +289,15 @@
         font-size: 24px !important;
         /*background-color: rgba(229,229,229,0.21);*/
     }
+    .ultimas-noticias-conteudo-materia-home{
+        margin: 0 !important;
+        min-height: 300px !important;
+    }
     .ultimas-noticias-titulo-home{
         font-size: 24px !important;
     }
     .ultimas-noticias-texto-home{
         font-size: 20px !important;
-        line-height: 23px !important;
     }
     .icon-social-home {
         font-size: 30px;
@@ -322,7 +345,7 @@
         font-size: 24px !important;
     }
     .portal-footer{
-        height: 370px !important;
+        height: 250px !important;
     }
     .footer-borda-desktop{
         border-left: none !important;
